@@ -2,6 +2,6 @@ language: java
 
 jdk: openjdk8
 
-before_build: gradle build
+before_script: gradle build
 
 script: gradle test
